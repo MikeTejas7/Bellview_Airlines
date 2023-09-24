@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellview Airline</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/173288243b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav>
+            <div class="nav__logo">Bellview Airline</div>
+            <ul class="nav__links">
+                <li class="link"><a class="active" href="#">Home</a></li>
+                <li class="link"><a href="about.html">About</a></li>
+                <li class="link"><a href="contact.html">Contact</a></li>
+                <li class="link"><a href="ticket.html">Account</a></li>
+            </ul>
+        </nav>
+        <!--Slide Show-->
+
+    <section id="home-slider">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/Front1.JPG" style="width:100%">
+              <div class="text">Find and Book a Great Experience</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="image/Font 2.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/Font 3.JPG" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+    </section>
+
+        <section class="section__container booking__container">
+            <div class="booking__nav">
+                <span>Economy Class</span>
+                <span>Business Class</span>
+                <span>First Class</span>
+            </div>
+            <form>
+                <div class="form__group">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div class="input__content">
+                        <div class="input__group">
+                            <input type="text" />
+                            <label>Location</label>
+                        </div>
+                        <p>Where are you going?</p>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <div class="input__content">
+                        <div class="input__group">
+                            <input type="number" />
+                            <label>Trackers</label>
+                        </div>
+                        <p>Add guests</p>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <span><i class="fa-solid fa-calendar-days"></i></span>
+                    <div class="input__content">
+                        <div class="input__group">
+                            <input type="text" />
+                            <label>Departure</label>
+                        </div>
+                        <p>Add Date</p>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <span><i class="fa-solid fa-calendar-days"></i></span>
+                    <div class="input__content">
+                        <div class="input__group">
+                            <input type="text" />
+                            <label>Return</label>
+                        </div>
+                        <p>Add Date</p>
+                    </div>
+                </div>
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </section>
+
+        <section class="section__container plan__container">
+            <p class="subheader">Travel Support</p>
+            <h2 class="section__header">Plan your Travel with confidence</h2>
+            <p class="description"> Find help with your booking, travel plans and see what to expect along your journey.</p>
+            <div class="plan__grid">
+                <div class="plan__content">
+                    <span class="number">01</span>
+                    <h4>Travel Requiremnts Across State in Nigeria</h4>
+                    <p>Travel between states in Nigeria typically does not require a visa or specific travel documents for Nigerian citizens. However, travelers may need to provide valid identification such as a national identity card or driver's license at checkpoints or during security checks. Non-Nigerian citizens should carry their passports and any required visas, and it's essential to check if there are any state-specific regulations or requirements, as they can vary.</p>
+                    <span class="number">02</span>
+                    <h4>Multirisk Travel Insurance</h4>
+                    <p>Typically provides comprehensive coverage for various unexpected events and emergencies during your journey. This insurance often includes protection against trip cancellations, delays, lost baggage, medical emergencies, and even accidental death or dismemberment while traveling with the airline. It's designed to give travelers peace of mind and financial protection in case of unforeseen circumstances, ensuring a smoother and more secure travel experience.</p>
+                    <span class="number">03</span>
+                    <h4>Travel Requirements by Destination</h4>
+                    <p>Stay informed and plan your trip with ease, as we provide up-to-date information on travel requiremnts specific to your desired states</p>
+                </div>
+                <div class="plan__image">
+                    <img src="image/Half1.JPG" alt="plan">
+                    <img src="image/Half2.JPG" alt="plan">
+                    <img src="image/Half3.JPG" alt="plan">
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter Signup-->
+
+    <section id="Newsletter" class="section-p1 reveal">
+        <div class="newstext">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get email updates about our latest products and <span>Special offers</span> straight to your inbox</p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    
+    <footer class="section-p1">
+        <div class="col">
+            <div class="nav__logo">Bellview Airline</div>
+            <h4>Contact Us @:</h4>
+            <p><strong>Address:</strong>#76 ------------</p>
+            <p><strong>Phone:</strong>08010BellView</p>
+            <div class="follow">
+                <h4>follow us:</h4>
+                <div class="icon">
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4><strong>About</strong></h4>
+            <a href="#">About Us</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms and Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4><strong>Account</strong></h4>
+            <a href="">Sign In</a>
+        </div>
+        <div class="col install">
+            <h4><strong>Install app</strong></h4>
+            <p>Use the app for a better experience!</p>
+            <div class="row">
+                <img src="image/p1.JPG" alt="">
+                <img src="image/p2.JPG" alt="">
+            </div>
+            <div>
+                <p>Choose a payment gateway</p>
+                <img src="image/pay2.JPG" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2023, Bellview Airline. 
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
