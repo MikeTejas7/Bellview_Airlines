@@ -20,4 +20,25 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
+// JavaScript code to handle form submission and authentication
+
+const loginForm = document.getElementById("login-form");
+loginForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get the entered username and password
+    const usernameInput = document.getElementById("login-username").value;
+    const passwordInput = document.getElementById("login-password").value;
+
+    // Perform authentication (for demonstration purposes, use hardcoded credentials)
+    if (usernameInput === "user" && passwordInput === "password") {
+        // Authentication successful, redirect to "contact.html"
+        window.location.href = "contact.html";
+    } else {
+        // Authentication failed, display an error message
+        alert("Invalid username or password. Please try again.");
+    }
+});
+
+
 

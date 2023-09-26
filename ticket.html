@@ -13,45 +13,29 @@
         <nav>
             <div class="nav__logo">Bellview Airline</div>
             <ul class="nav__links">
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="about.html">About</a></li>
-                <li class="link"><a href="contact.html">Contact</a></li>
                 <li class="link"><a class="active" href="ticket.html">Account</a></li>
             </ul>
         </nav>
-        <section>
-          <div class="container">
-            <div class="form-box">
-              <h1 id="title">Sign Up</h1>
-              <form>
-                <div class="input-group">
-                  <div class="input-field" id="nameField">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name">
-        
-                  </div>
-        
-                  <div class="input-field">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Student Email">
-        
-                  </div>
-        
-                  <div class="input-field">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="Password">
-                  </div>
-                  <p>Forgot Password <a href="#">Click Here!</a></p>
-                </div>
-        
-                <div class="btn-field">
-                  <button type="button" id="signupBtn">Sign up</button>
-                  <button type="button" class="disable" id="signinBtn" href="portal.html">Sign in</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
+        <!-- Login Form -->
+    <section id="login-form" class="account-form">
+      <h2>Login</h2>
+      <form id="login-form">
+          <input type="text" placeholder="Username or Email" id="login-username">
+          <input type="password" placeholder="Password" id="login-password">
+          <button type="submit">Login</button>
+      </form>
+  </section>
+
+  <!-- Signup Form -->
+  <section id="signup-form" class="account-form">
+      <h2>Sign Up</h2>
+      <form id="signup-form">
+          <input type="text" placeholder="Full Name" id="signup-fullname">
+          <input type="email" placeholder="Email" id="signup-email">
+          <input type="password" placeholder="Password" id="signup-password">
+          <button type="submit">Sign Up</button>
+      </form>
+  </section>
 
         
     <script src="script.js"></script>
