@@ -34,5 +34,21 @@ const loginButton = document.getElementById("login-button");
             }
         });
 
+// Function to toggle the visibility of the navigation links
+const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        // Function to toggle the visibility of the navigation links
+        function toggleNav() {
+            if (navLinks.style.display === 'block') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'block';
+            }
+        }
+
+        // Add a click event listener to the mobile menu toggle button
+        mobileMenuToggle.addEventListener('click', toggleNav);
+
 
 
